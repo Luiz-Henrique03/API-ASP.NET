@@ -1,0 +1,152 @@
+[
+  {
+    "ContainingType": "WebApi8_Video.Controllers.AutorController",
+    "Method": "BuscarAutorPorId",
+    "RelativePath": "api/Autor/BuscarAutorPorId/{IdAutor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdAutor",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApi8_Video.Models.ResponseModel\u00601[[WebApi8_Video.Models.AutorModel, WebApi8-Video, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi8_Video.Controllers.AutorController",
+    "Method": "BuscarAutorPorIdLivro",
+    "RelativePath": "api/Autor/BuscarAutorPorIdLivro/{IdLivro}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdLivro",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApi8_Video.Models.ResponseModel\u00601[[WebApi8_Video.Models.AutorModel, WebApi8-Video, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi8_Video.Controllers.AutorController",
+    "Method": "CriarAutor",
+    "RelativePath": "api/Autor/CriarAutor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "autorCriacaoDto",
+        "Type": "WebApi8_Video.Dto.Autor.AutorCriacaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApi8_Video.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi8_Video.Models.AutorModel, WebApi8-Video, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi8_Video.Controllers.AutorController",
+    "Method": "EditarAutor",
+    "RelativePath": "api/Autor/EditarAutor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "autorEdicaoDto",
+        "Type": "WebApi8_Video.Dto.Autor.AutorEdicaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApi8_Video.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi8_Video.Models.AutorModel, WebApi8-Video, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi8_Video.Controllers.AutorController",
+    "Method": "ExcluirAutor",
+    "RelativePath": "api/Autor/ExcluirAutor",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdAutor",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApi8_Video.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi8_Video.Models.AutorModel, WebApi8-Video, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi8_Video.Controllers.AutorController",
+    "Method": "ListarAutores",
+    "RelativePath": "api/Autor/ListarAutores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebApi8_Video.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi8_Video.Models.AutorModel, WebApi8-Video, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
