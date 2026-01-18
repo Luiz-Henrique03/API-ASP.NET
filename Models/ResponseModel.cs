@@ -1,4 +1,5 @@
-﻿namespace WebApi8_Video.Models
+﻿
+namespace WebApi8_Video.Models
 {
     public class ResponseModel<T>
     {
@@ -6,5 +7,7 @@
 
         public string Mensagem { get; set; } = string.Empty;
         public bool Status { get; set; } = true;
+
+   
     }
 }

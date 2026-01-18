@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using WebApi8_Video.Data;
 using WebApi8_Video.Services.Autor;
+using WebApi8_Video.Services.Livro;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 });
 
 builder.Services.AddScoped<IAutorInterface, AutorService>();
+builder.Services.AddScoped<ILivroInterface, LivroService>();
+
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();

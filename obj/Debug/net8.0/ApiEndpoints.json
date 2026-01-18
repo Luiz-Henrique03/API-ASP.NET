@@ -148,5 +148,51 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "WebApi8_Video.Controllers.LivrosController",
+    "Method": "BuscarLivroPorId",
+    "RelativePath": "api/Livros/BuscarLivroPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdLivro",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApi8_Video.Models.ResponseModel\u00601[[WebApi8_Video.Models.LivroModel, WebApi8-Video, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi8_Video.Controllers.LivrosController",
+    "Method": "ListarLivros",
+    "RelativePath": "api/Livros/ListarLivros",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebApi8_Video.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApi8_Video.Models.LivroModel, WebApi8-Video, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

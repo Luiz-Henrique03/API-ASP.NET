@@ -143,3 +143,4 @@ C:\Users\luizh\source\repos\WebApi8-Video\WebApi8-Video\obj\Debug\net8.0\refint\
 C:\Users\luizh\source\repos\WebApi8-Video\WebApi8-Video\obj\Debug\net8.0\WebApi8-Video.pdb
 C:\Users\luizh\source\repos\WebApi8-Video\WebApi8-Video\obj\Debug\net8.0\WebApi8-Video.genruntimeconfig.cache
 C:\Users\luizh\source\repos\WebApi8-Video\WebApi8-Video\obj\Debug\net8.0\ref\WebApi8-Video.dll
+C:\Users\luizh\source\repos\WebApi8-Video\WebApi8-Video\obj\Debug\net8.0\WebApi8-Video.sourcelink.json
