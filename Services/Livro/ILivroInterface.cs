@@ -1,4 +1,5 @@
-﻿using WebApi8_Video.Models;
+﻿using WebApi8_Video.Dto.Livro;
+using WebApi8_Video.Models;
 
 namespace WebApi8_Video.Services.Livro
 {
@@ -9,5 +10,12 @@ namespace WebApi8_Video.Services.Livro
         Task<ResponseModel<LivroModel>> BuscarLivroPorId(string idLivro);
 
         Task<ResponseModel<List<LivroModel>>> ExcluirLivro(string idLivro);
+
+        Task<ResponseModel<List<LivroModel>>> CriarLivro(LivroCriacaoDto livroCriacaoDto);
+
+        Task<ResponseModel<List<LivroModel>>> EditarLivro(LivroEdicaoDto livroEdicaoDto);
+
+
+
     }
 }
